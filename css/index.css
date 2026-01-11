@@ -1,0 +1,329 @@
+* {
+  font-family: "Pridi", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1vw;
+}
+
+body {
+  background-color: whitesmoke;
+  width: 80vw;
+  margin: auto;
+}
+
+.head {
+  width: 100%;
+  background-color: #1b2940;
+  display: inline-block;
+}
+
+.hleft {
+  float: left;
+  color: white;
+}
+
+.hright {
+  float: right;
+  color: black;
+  text-align: right;
+}
+
+.p1 {
+  font-size: 25pt;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-shadow: 0.1vw 0.1vw black;
+  letter-spacing: 0.2vw;
+}
+
+.p2 {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 10px;
+  letter-spacing: 2px;
+}
+
+.p3 {
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 0.5vw;
+  text-shadow: 0.1vw 0 white;
+  color: orangered;
+}
+
+.menu1 {
+  background-color: orangered;
+  color: white;
+  border-top-left-radius: 20px;
+  padding: 10px 0;
+}
+
+.menu1 ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-right: 0.5vw;
+  gap: 1vw;
+}
+
+.menu1 li {
+  font-weight: bold;
+  color: white;
+}
+
+.hright li a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: white;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+}
+
+.hright li a:hover {
+  color: yellow;
+  font-weight: bolder;
+  border-bottom: 0.2vw solid black;
+}
+
+.banner {
+  height: 45vh;
+  width: 100%;
+  /* margin: 0.2vw 0; */
+  border: 0.1vw solid white;
+  background: url("../img/bannerbl1.png") no-repeat;
+  background-size: cover;
+  align-content: center;
+  border-radius: 0.5vw;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner .login {
+  float: right;
+  width: 20%;
+  color: black;
+  background: orangered;
+  border-radius: 1vw;
+  margin-right: 2vw;
+  text-align: center;
+  padding: 1.2vw 0;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.login input {
+  width: 80%;
+  font-size: 1vw;
+  border-radius: 0.5vw;
+  text-align: center;
+  margin: 0.5vw;
+}
+
+.login button {
+  width: 50%;
+  background: black;
+  color: white;
+  font-size: 1vw;
+  border-radius: 0.5vw;
+  margin-top: 1vw;
+}
+
+.info {
+  width: 100%;
+  height: 100vh;
+  display: inline-table;
+  background: white;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.info .infoLeft {
+  float: left;
+  width: 30%;
+  margin-top: 2px;
+}
+
+.info .infoLeft .box {
+  width: 100%;
+  height: 25vh;
+  background: white;
+  border-radius: 1vw;
+  font-size: 0.9vw;
+  align-content: center;
+  margin-bottom: 0.2vw;
+  border: 1px solid #a8a9ac;
+  border-radius: 5px;
+}
+
+.infoLeft .box img {
+  width: 40%;
+  height: 20vh;
+  float: left;
+  margin: 0.5vw;
+  border-radius: 0.5vw;
+  background: white;
+}
+
+.infoLeft .box p {
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin: 0.5vw 0;
+}
+
+.infoLeft .box ul {
+  margin-left: 1vw;
+  display: contents;
+}
+.infoLeft .box li {
+  font-weight: normal;
+}
+.infoLeft .box button {
+  width: 55%;
+  height: 4vh;
+  background: #304779;
+  border: none;
+  border-radius: 1vw;
+  margin-top: 0.5vw;
+}
+
+.infoLeft .box a {
+  text-decoration: none;
+  color: white;
+}
+
+.infoLeft .box .detail {
+  width: 53%;
+  float: right;
+  color: black;
+}
+
+.info .infoRight {
+  float: right;
+  width: 69%;
+  /* border: 1px solid #696866; */
+  background: white;
+  border-radius: 5px;
+}
+
+.infoRight .menu {
+  height: 6vh;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  background: #233e61;
+  color: white;
+  font-size: 1vw;
+  border-radius: 5px 5px 0 0;
+}
+
+.infoRight .menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  gap: 1.5vw;
+  justify-content: center;
+}
+
+.infoRight .menu ul li {
+  font-weight: bolder;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.infoRight a {
+  text-decoration: none;
+  color: white;
+  font-size: 12pt;
+  /* font-weight: bolder; */
+  transition: all 0.3s ease;
+}
+
+.infoRight a:hover {
+  color: yellow;
+  font-weight: bolder;
+  border-bottom: 0.1vw solid #fa0d05;
+}
+
+.infoRight .SE {
+  width: 100%;
+  height: 28vh;
+  background: linear-gradient(181deg, #96cdf4, white);
+  font-size: 1vw;
+  color: black;
+  align-content: center;
+  text-align: center;
+}
+
+.infoRight .SE .SELeft {
+  width: 60%;
+  margin: 1vw;
+  float: left;
+}
+
+.infoRight .SE .SERight {
+  width: 30%;
+  margin: 0.6vw;
+  float: right;
+}
+
+.infoRight .SE .SERight img {
+  width: 100%;
+  height: 25vh;
+  border-radius: 0.5vw;
+}
+
+.infoRight .SE a {
+  color: #bf5a07;
+  font-weight: bolder;
+}
+
+.infoRight .SEdetail {
+  /* border: 1px solid goldenrod; */
+  color: black;
+  padding-left: 3.5vw;
+  font-size: 0.9vw;
+  text-align: left;
+}
+
+.infoRight .SEdetail .S1 {
+  font-size: 1.7vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5vw;
+}
+
+.infoRight .SEdetail .S2 {
+  font-weight: bold;
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.infoRight .SEdetail .S3 {
+  padding-left: 2vw;
+  margin-bottom: 1.2vw;
+  margin-top: 0.6vw;
+}
+
+.footer {
+  width: 100%;
+  height: 8vh;
+  background: #202f4b;
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-size: 1.1vw;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f6da06;
+  font-weight: bold;
+}

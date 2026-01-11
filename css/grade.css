@@ -1,0 +1,95 @@
+.main {
+  width: 100%;
+  background: linear-gradient(1deg, #202f4b, white);
+  text-align: center;
+  padding-top: 1.5vh;
+  padding-bottom: 0.5vh;
+}
+
+p {
+  margin: 0;
+}
+
+.mainArea {
+  width: 95%;
+  margin: auto;
+  padding-top: 2vh;
+}
+
+.main .T1 {
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-shadow: 0.1vw 0.1vw #9b9292;
+  margin: 0;
+}
+
+.main .T2 {
+  font-size: 1.2vw;
+  font-weight: bold;
+  float: left;
+}
+
+.main .T3 {
+  font-size: 1.2vw;
+  font-weight: bold;
+  float: right;
+  text-align: right;
+}
+
+.main .T4 {
+  font-size: 1vw;
+  font-weight: bold;
+  text-shadow: 0.1vw 0.1vw #9b9292;
+  margin-top: 1vw;
+}
+
+.main .T5 {
+  font-size: 1.1vw;
+  font-weight: bold;
+  margin-left: 2vw;
+  float: left;
+}
+
+.main .T6 {
+  background: red;
+  color: white;
+  font-size: 1.1vw;
+  font-weight: bold;
+  float: right;
+  text-align: center;
+  margin-right: 2vw;
+  border-radius: 0.5vw;
+  width: 10vw;
+}
+
+.main table {
+  width: 100%;
+  background: white;
+  border-radius: 0.5vw;
+  font-size: 0.9vw;
+  overflow: auto;
+}
+
+.main table,
+td {
+  border: 0.1vw solid gainsboro;
+}
+
+.main table th {
+  border-radius: 0.5vw;
+  padding: 0.3vw 0;
+  background-color: #2c2c5a;
+  color: white;
+}
+
+.main td.subj {
+  width: 50%;
+  text-align: left;
+  padding-left: 0.5vw;
+}
+
+.main table a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
